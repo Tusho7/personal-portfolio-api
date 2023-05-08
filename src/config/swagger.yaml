@@ -7,7 +7,7 @@ info:
 servers:
   - url: http://localhost:3000/api
     description: local server
-    - url: https://nice-lime-shark-garb.cyclic.app/
+  - url: https://nice-lime-shark-garb.cyclic.app/
     description: Cyclic server
 paths:
   /projects:
