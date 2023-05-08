@@ -1,0 +1,23 @@
+[
+  {
+    "_id": 1,
+    "title": "Audiophile Ecommerce Website",
+    "description": "Online store for buying hardware",
+    "built": "Reactjs, Nodejs, MongoDB, Swagger, Authentication, StyledComponents, Typescript",
+    "picture": "./audiophile-ecommerce.jpg"
+  },
+    {
+    "_id": 2,
+    "title": "Entertainment Web App",
+    "description": "Movies and TVseries website",
+    "built": "Reactjs, Nodejs, MongoDB, Swagger, Authentication, StyledComponents, Typescript",
+    "picture": "./entertainment-web-app.jpg"
+  },
+      {
+    "_id": 3,
+    "title": "Job Listing",
+    "description": "Job Listing with filter",
+    "built": "Reactjs, Nodejs, MongoDB, Swagger, Typescript, SASS",
+    "picture": "./job-listing.jpg"
+  }
+]
