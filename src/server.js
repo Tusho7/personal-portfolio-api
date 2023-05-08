@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 
 import connectToMongo from "./config/mongo.js";
 import projectRouter from "./routes/project-router.js";
+import swaggerMiddleware from "./middlewares/swagger-middleware.js";
 
 const app = express();
 dotenv.config();
@@ -12,5 +13,6 @@ connectToMongo();
 app.use(bodyParser.json());
 
 app.use("/api", projectRouter);
+app.use("/", ...swaggerMiddleware());
 
 app.listen(3000);

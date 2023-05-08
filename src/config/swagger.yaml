@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: Personal Portfolio
+  description: Personal Portfolio API
+  version: 0.1.9
+
+servers:
+  - url: http://localhost:3000/api
+    description: local server
+paths:
+  /projects:
+    get:
+      tags:
+        - Projects
+      responses:
+        "200":
+          description: Successfully fetched
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
