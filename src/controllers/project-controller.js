@@ -11,7 +11,7 @@ export const getAllProjects = async(req,res) => {
             status: project.status,
             statusImg: project.statusImg,
             built: project.built,
-            pricture: project.picture
+            picture: project.picture
         }
     })
     return res.json(newData);
