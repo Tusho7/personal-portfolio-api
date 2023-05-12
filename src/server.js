@@ -14,7 +14,7 @@ connectToMongo();
 app.use(bodyParser.json());
 
 app.use(cors());
-
+app.use("/images", express.static("public/storage"));
 app.use("/api", projectRouter);
 app.use("/", ...swaggerMiddleware());
 
